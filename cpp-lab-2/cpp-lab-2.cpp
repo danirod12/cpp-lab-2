@@ -1,7 +1,7 @@
 ﻿#include <iostream>
 
-long double fraq(long double origin) {
-    long double result = 1;
+long long fraq(long long origin) {
+    long long result = 1;
     while (origin > 0) {
         result *= origin;
         origin -= 2;
